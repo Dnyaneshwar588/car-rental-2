@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600&family=Teko:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+*{
+  font-family: "Outfit", sans-serif;
+}
+
+body{
+  background-color: #F8FAFC;
+  color: #0F172A;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.home-india{
+  background-image:
+    radial-gradient(circle at 15% 10%, rgba(255, 138, 30, 0.18), transparent 45%),
+    radial-gradient(circle at 85% 15%, rgba(14, 124, 58, 0.18), transparent 45%),
+    linear-gradient(180deg, #FFF6E3 0%, #FFFDF7 30%, #F7FAF5 100%);
+}
+
+.home-india,
+.home-india *{
+  font-family: "Hind", sans-serif;
+}
+
+.home-india h1,
+.home-india h2,
+.home-india h3{
+  font-family: "Teko", sans-serif;
+  letter-spacing: 0.02em;
+}
+
+@theme {
+  --color-primary: #2563EB;
+  --color-primary-dull: #1F58D8;
+  --color-light: #F1F5F9;
+  --color-borderColor: #c4c7d2;
+}
